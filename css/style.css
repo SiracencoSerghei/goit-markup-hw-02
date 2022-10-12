@@ -1,6 +1,6 @@
           /* global variables */
 :root {
-    --primary-font-family: Roboto;
+    --primary-font-family: 'Roboto', sans-serif;
     --primary-color: #757575;
     --secondary-color: #212121;
     --accent-color: #2196F3;
@@ -11,6 +11,8 @@
             /* BODY */
 body {
     font-family: var(--primary-font-family), -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue,  helvetica, Cantarell, Ubuntu, noto, arial, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
     color: var(--primary-color);
 }
 /* ШАПКА САЙТУ */
@@ -30,7 +32,6 @@ body {
 }
 .nav-links .link {
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--secondary-color);
@@ -39,7 +40,6 @@ body {
 .header-mail,
 .header-tel {
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--primary-color);
@@ -81,9 +81,8 @@ body {
 }
 .firm-address {
     font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
+    font-style: normal;
 }
 .map-link {
     color: #FFFFFF;
@@ -130,16 +129,13 @@ body {
 .key-features-titles {
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--secondary-color);
 
 }
 .key-features-text {
     font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
 }
 
 /* WE-DO SECTION */
@@ -149,7 +145,6 @@ body {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--secondary-color);
 
 }
@@ -164,7 +159,6 @@ body {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--secondary-color);
 }
 .our-team-member {
@@ -172,7 +166,6 @@ body {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--secondary-color);
 }
 .our-team-position {
@@ -180,7 +173,6 @@ body {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    letter-spacing: 0.03em;
    
 }
 
@@ -194,7 +186,6 @@ body {
     font-size: 16px;
     line-height: 1.63;
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--secondary-color);
 }
 .portfolio-filter-list [type="button"]:hover,
@@ -216,7 +207,6 @@ a.link .work-list-description {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
-    letter-spacing: 0.03em;
     color: var(--primary-color);
     
 }
